@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="خدمات منتجع هول إن ون - ملاعب جولف عالمية وخدمات متكاملة">
+    <meta name="keywords" content="خدمات جولف, ملاعب جولف, تدريب جولف, إقامة فاخرة, مطاعم">
+
+    <title>خدماتنا | منتجع هول إن ون</title>
+
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><defs><linearGradient id='a' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:%23B9FF66'/><stop offset='100%' style='stop-color:%234CAF50'/></linearGradient></defs><circle cx='256' cy='256' r='256' fill='%23191a23'/><g transform='translate(128 128)'><circle cx='128' cy='128' r='120' fill='white'/><path fill='url(%23a)' d='M128 8c66.274 0 120 53.726 120 120s-53.726 120-120 120S8 194.274 8 128 61.726 8 128 8zm0 20c-55.228 0-100 44.772-100 100s44.772 100 100 100 100-44.772 100-100-44.772-100-100-100zm30 50c0 16.569-13.431 30-30 30-16.569 0-30-13.431-30-30 0-16.569 13.431-30 30-30 16.569 0 30 13.431 30 30z'/><path fill='%23191a23' d='M158 78c0 16.569-13.431 30-30 30-16.569 0-30-13.431-30-30 0-16.569 13.431-30 30-30 16.569 0 30 13.431 30 30z' opacity='.15'/></g></svg>"
+        type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-scroll-container data-theme="light">
+    
+
+
+    <!-- القائمة الرئيسية  -->
+    <nav class="navbar">
+        <!-- الشعار -->
+        <a href="index.html" class="logo">
+            <div class="logo-container">
+                <i class="fas fa-golf-ball"></i>
+                <span class="logo-text">الرئيسية</span>
+            </div>
+        </a>
+
+        <!-- كود لعرض القائمة على الهواتف الخلوية  -->
+        <div class="menu-toggle" aria-label="Toggle navigation">
+            <i class="fas fa-bars menu-icon"></i>
+            <i class="fas fa-times close-icon"></i>
+        </div>
+
+        <!-- محتويات القائمة  -->
+        <ul class="nav-links">
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="services.html" class="active">خدماتنا</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+            <li class="lang-switch">
+                <button class="lang-btn" aria-label="Switch Language">
+                    <i class="fas fa-globe"></i>
+                    <span>English</span>
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- القسم الاساسي للخدمات  -->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="main-title">خدماتنا</h1>
+            <p class="subtitle">
+                نقدم مجموعة متكاملة من الخدمات الراقية لضمان تجربة استثنائية
+            </p>
+        </div>
+    </header>
+
+    <!-- قسم الخدمات الرئيسية  -->
+    <section class="inner-services">
+        <div class="container">
+            <div class="inner-services-grid">
+                <!-- دورات تغلم الجولف -->
+                <div class="inner-service-card">
+                    <div class="inner-service-icon">
+                        <i class="fas fa-golf-ball"></i>
+                    </div>
+                    <h3>ملاعب الجولف</h3>
+                    <p>ثلاثة ملاعب عالمية المستوى بما في ذلك ملعب "سي فيو" الشهير</p>
+                    <ul class="inner-service-features">
+                        <li><i class="fas fa-check"></i> 18 حفرة لكل ملعب</li>
+                        <li><i class="fas fa-check"></i> تصميم عالمي</li>
+                        <li><i class="fas fa-check"></i> مناظر طبيعية خلابة</li>
+                    </ul>
+                    <a href="#" class="inner-service-btn">اكتشف المزيد</a>
+                </div>
+
+                <!-- التدريب -->
+                <div class="inner-service-card">
+                    <div class="inner-service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>التدريب المتخصص</h3>
+                    <p>برامج تدريبية متكاملة مع نخبة من المدربين المحترفين</p>
+                    <ul class="inner-service-features">
+                        <li><i class="fas fa-check"></i> دروس فردية</li>
+                        <li><i class="fas fa-check"></i> برامج للمبتدئين</li>
+                        <li><i class="fas fa-check"></i> تدريب متقدم</li>
+                    </ul>
+                    <a href="#" class="inner-service-btn">اكتشف المزيد</a>
+                </div>
+
+                <!-- الراحة والاستجمام  -->
+                <div class="inner-service-card">
+                    <div class="inner-service-icon">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h3>الإقامة الفاخرة</h3>
+                    <p>غرف وأجنحة فاخرة مع إطلالات بانورامية على الملاعب</p>
+                    <ul class="inner-service-features">
+                        <li><i class="fas fa-check"></i> أجنحة ملكية</li>
+                        <li><i class="fas fa-check"></i> خدمة 24/7</li>
+                        <li><i class="fas fa-check"></i> مرافق متكاملة</li>
+                    </ul>
+                    <a href="#" class="inner-service-btn">اكتشف المزيد</a>
+                </div>
+
+                <!-- المطاعم والكافيات -->
+                <div class="inner-service-card">
+                    <div class="inner-service-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>المطاعم والمقاهي</h3>
+                    <p>تجربة طعام راقية مع تشكيلة متنوعة من المأكولات العالمية</p>
+                    <ul class="inner-service-features">
+                        <li><i class="fas fa-check"></i> مطبخ عالمي</li>
+                        <li><i class="fas fa-check"></i> إطلالات مميزة</li>
+                        <li><i class="fas fa-check"></i> خدمة VIP</li>
+                    </ul>
+                    <a href="#" class="inner-service-btn">اكتشف المزيد</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- خدمات اضافية  -->
+    <section class="additional-services">
+        <div class="container">
+            <h2 class="section-title">خدمات إضافية</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>مركز اللياقة البدنية</h3>
+                    <p>صالة رياضية مجهزة بأحدث المعدات</p>
+                </div>
+
+                <div class="service-item">
+                    <i class="fas fa-spa"></i>
+                    <h3>السبا والمساج</h3>
+                    <p>خدمات استرخاء وعناية متكاملة</p>
+                </div>
+
+                <div class="service-item">
+                    <i class="fas fa-shopping-bag"></i>
+                    <h3>متجر المحترفين</h3>
+                    <p>أحدث معدات ومستلزمات الجولف</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="service-features-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h4>خدمة 24/7</h4>
+                    <p>دعم وخدمة متواصلة على مدار الساعة</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>جودة عالمية</h4>
+                    <p>معايير خدمة ترقى للمستوى العالمي</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>طاقم محترف</h4>
+                    <p>فريق عمل مدرب على أعلى مستوى</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ذيل الصفحة  -->
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- الجزؤ الرئيسي بالذيل -->
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <i class="fas fa-golf-ball"></i>
+                        <span data-translate="logo-text">هول إن ون</span>
+                    </a>
+                    <p class="footer-description" data-translate="footer-description">
+                        منتجع جولف عالمي يقدم تجربة فريدة مع ثلاثة ملاعب احترافية وخدمات متكاملة
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h3>روابط سريعة</h3>
+                        <ul>
+                            <li><a href="about.html">من نحن</a></li>
+                            <li><a href="services.html">خدماتنا</a></li>
+                            <li><a href="gallery.html">معرض الصور</a></li>
+                            <li><a href="packages.html">الحزم المتخصصة</a></li>
+                            <li><a href="contact.html">تواصل معنا</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>الخدمات</h3>
+                        <ul>
+                            <li><a href="#">ملاعب الجولف</a></li>
+                            <li><a href="#">التدريب المتخصص</a></li>
+                            <li><a href="#">الإقامة الفاخرة</a></li>
+                            <li><a href="#">المطاعم والمقاهي</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>تواصل معنا</h3>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>البرتغال - منطقة الجولف السياحية</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <span>+351 123 456 789</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>info@holeinone.com</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>النشرة البريدية</h3>
+                        <p>اشترك للحصول على آخر العروض والأخبار</p>
+                        <form class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" placeholder="البريد الإلكتروني" required>
+                                <button type="submit" class="btn-subscribe">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- اسفل الذيل -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                        © 2025 هول إن ون. جميع الحقوق محفوظة
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- الانتقال الى الاعلى  -->
+    <button class="go-top-btn" aria-label="العودة إلى الأعلى">
+        <i class="fas fa-chevron-up"></i>
+        <div class="go-top-text">أعلى الصفحة</div>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+        // Services Page Specific Scripts
+        document.addEventListener('DOMContentLoaded', function () {
+            // Animate service cards on hover
+            const serviceCards = document.querySelectorAll('.inner-service-card');
+
+            serviceCards.forEach(card => {
+                card.addEventListener('mouseenter', () => {
+                    card.style.transform = 'translateY(-10px)';
+                });
+
+                card.addEventListener('mouseleave', () => {
+                    card.style.transform = 'translateY(0)';
+                });
+            });
+
+            // Smooth scroll for service buttons
+            const serviceButtons = document.querySelectorAll('.inner-service-btn');
+
+            serviceButtons.forEach(button => {
+                button.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetSection = button.getAttribute('href');
+                    document.querySelector(targetSection).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
